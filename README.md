@@ -46,7 +46,7 @@ Enter python train_mutil_T1_FA_Peaks.py to run the code. If you are prompted for
 
 ---
 
-After training, you can use the python train_mutil_T1_FA_Peaks.py to validate your model.
+After training, you can use the python predict_mutil_T1_FA_Peaks.py to validate your model.
 
 # Concact
 
