@@ -8,7 +8,7 @@ Due to the slender structure of cranial nerves (CNs) and the complex anatomical 
 
 <div align=center>
 <img src="figures/cns5.jpg" width="400px">
-
+</div>
 
 CNTSeg is the code for the following papers. Please cite the papers if you use it.
 
