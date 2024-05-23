@@ -48,9 +48,8 @@ In this work, we propose a novel multimodal deep-learning-based multi-class netw
 
 1. Find the best weights for single modalities separately
 ```
-python train_mutil_T1.py
-python train_mutil_FA.py
-python train_mutil_peaks.py
+python train_Single.py (train_T1, train_FA, and train_Peaks)
+python predict_Single.py (train_T1, train_FA, and train_Peaks)
 ```
 2. Load the best weights of a single modality to train the CNTSeg
 ```
@@ -72,7 +71,24 @@ python train_CNTSeg_V2.py
 ```
 2. Validate model
 ```
-predict_CNTSeg_V2.py
+python predict_CNTSeg_V2.py
+```
+3. Validate missingmodality model of CNTSeg-v2 (16 available modalities)
+```
+python predict_CNTSegV2_Missingmodality.py
+```
+4. Other: Effectiveness on Components of CNTSeg-v2
+
+AFM, CDF, MSSE, and ALL
+```
+python train_CNTSeg_V2_without_AFM.py; train_CNTSeg_V2_without_CDF.py; train_CNTSeg_V2_without_MSSE.py; train_CNTSeg_V2_without_ALL.py
+python predict_CNTSeg_V2_without_AFM.py; predict_CNTSeg_V2_without_CDF.py; predict_CNTSeg_V2_without_MSSE.py; predict_CNTSeg_V2_without_ALL.py
+```
+
+5. Other: Train and Validate other models
+```
+python train_MMFNet.py
+python predict_NSYnet.py
 ```
 
 
