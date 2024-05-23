@@ -73,7 +73,7 @@ In this work, we propose a novel arbitrary-modal fusion network for CNs tract se
 <img src="figures/v2.jpg" width="700px">
 </div>
 
-1. Train the CNTSeg
+1. Train the CNTSeg-v2
 ```
 python train_CNTSeg_V2.py
 ```
