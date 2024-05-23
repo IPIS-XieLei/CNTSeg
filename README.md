@@ -32,8 +32,15 @@ CNTSeg is the code for the following papers. Please cite the papers if you use i
 ---
 - For CNTSeg
 
--- python train_CNTSeg_V1.py
--- python predict_CNTSeg_V1.py
+```
+python Pre_data.py ## Crop the HCP data (i.e., T1w and dMRI data) with a spatial resolutionof 145×174×145 voxels to 128×160×128 voxels; normalize the T1w images and dMRI data from 0 to 255.
+python createmydata.py ## Obtaining training and testing data
+python train_mutil_T1.py; python train_mutil_FA.py; python train_mutil_peaks.py ## Find the best weights for single modalities separately
+python train_CNTSeg_V1.py ## Load the best weights of a single modality to train the CNTSeg
+python predict_CNTSeg_V1.py ## validate mode
+```
+
+Note: Use the MRtrix3 to process primary DWI data and get the corresponding FA images and Peaks images; The Human Connectome Project dataset is available at [https://db.humanconnectome.org](https://db.humanconnectome.org/).
 
 
 - For CNTSeg-v2
