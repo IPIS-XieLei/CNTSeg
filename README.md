@@ -31,17 +31,20 @@ CNTSeg is the code for the following papers. Please cite the papers if you use i
 
 ---
 - For CNTSeg
-Enter python train_mutil_T1_FA_Peaks.py to run the code. If you are prompted for no packages, enter pip install * * to install dependent packages
+
+-- python train_CNTSeg_V1.py
+-- python predict_CNTSeg_V1.py
+
+
 - For CNTSeg-v2
-Enter python train_mutil_T1_FA_Peaks.py to run the code. If you are prompted for no packages, enter pip install * * to install dependent packages
-## **Copyright**
+  
+-- python train_CNTSeg_V2.py
+-- predict_CNTSeg_V2.py
 
----
-
-After training, you can use the python train_mutil_T1_FA_Peaks.py to validate your model.
 
 # **Concact**
 
 ---
+Lei Xie, College of Information Engineering, Zhejiang University of Technology
 
-Lei Xie, leix@zjut.edu.cn# CNTSeg
+leix@zjut.edu.cn
