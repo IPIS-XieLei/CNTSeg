@@ -79,8 +79,8 @@ python predict_CNTSegV2_Missingmodality.py
 ```
 4. Other: Effectiveness on Components of CNTSeg-v2
 
-AFM, CDF, MSSE, and ALL
 ```
+##AFM, CDF, MSSE, and ALL
 python train_CNTSeg_V2_without_AFM.py; train_CNTSeg_V2_without_CDF.py; train_CNTSeg_V2_without_MSSE.py; train_CNTSeg_V2_without_ALL.py
 python predict_CNTSeg_V2_without_AFM.py; predict_CNTSeg_V2_without_CDF.py; predict_CNTSeg_V2_without_MSSE.py; predict_CNTSeg_V2_without_ALL.py
 ```
