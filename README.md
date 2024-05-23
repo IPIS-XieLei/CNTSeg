@@ -6,7 +6,8 @@
 
 Due to the slender structure of cranial nerves (CNs) and the complex anatomical environment, single-modality data based on dMRI cannot provide a complete and accurate description. CNs tract segmentation is the strategy of voxel-wise analysis, which directly classifies voxels based on associated fiber bundles, bypassing traditional streamline analysis. CNTSeg has achieved the segmentation of 5 pairs of CNs (i.e. optic nerve *CN II*, oculomotor nerve *CN III*, trigeminal nerve *CN V*, and facial–vestibulocochlear nerve *CN VII/VIII*).
 
-![Untitled](figures/cns5.jpg width="210px")
+<img src="figures/cns5.jpg" width="210px">
+
 
 CNTSeg is the code for the following papers. Please cite the papers if you use it.
 
