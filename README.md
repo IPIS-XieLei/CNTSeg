@@ -40,4 +40,4 @@ After training, you can use the python train_mutil_T1_FA_Peaks.py to validate yo
 
 ---
 
-Lei Xie, leix@zjut.edu.cn
+Lei Xie, leix@zjut.edu.cn# CNTSeg
