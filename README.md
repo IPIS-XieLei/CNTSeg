@@ -11,7 +11,7 @@ CNTSeg is the code for the following papers. Please cite the papers if you use i
 
 - Xie L, Huang J, Yu J, et al. Cntseg: A multimodal deep-learning-based network for cranial nerves tract segmentation[J]. Medical Image Analysis, 2023, 86: 102766.
 - Xie L, Zeng Q, Zhou H, et al. Anatomy-guided fiber trajectory distribution estimation for cranial nerves tractography[J]. arXiv preprint arXiv:2402.18856, 2024. (ISBI2024).
-- CNTSeg-v2: An Arbitrary-Modal Fusion Network for Cranial Nerves Tract Segmentation.
+- CNTSeg-v2: An Arbitrary-Modal Fusion Network for Cranial Nerves Tract Segmentation. Submitted to IEEE TMI.
 
   
 
