@@ -47,7 +47,7 @@ python createmydata.py
 In this work, we propose a novel multimodal deep-learning-based multi-class network for automated cranial nerves tract segmentation without using tractography, ROI placement or clustering, called CNTSeg. Specifically, we introduced T1w images, fractional anisotropy (FA) images, and fiber orientation distribution function (fODF) peaks into the training data set, and design the back-end fusion module which uses the complementary information of the interphase feature fusion to improve the segmentation performance. 
 
 <div align=center>
-<img src="figures/v1.jpg" width="400px">
+<img src="figures/v1.jpg" width="700px">
 </div>
 
 1. Find the best weights for single modalities separately
@@ -70,7 +70,7 @@ python predict_CNTSeg_V1.py
 In this work, we propose a novel arbitrary-modal fusion network for CNs tract segmentation, called CNTSeg-v2, which trains one model to handle different combinations of available modalities. Instead of directly combining all the modalities, we select T1-weighted (T1w) images as the primary modality according to simplicity in data acquisition and contribution most to the results, which supervises the information selection of other auxiliary modalities (T2w images, FA images, Peaks images, and DEC images).
 
 <div align=center>
-<img src="figures/v2.jpg" width="400px">
+<img src="figures/v2.jpg" width="700px">
 </div>
 
 1. Train the CNTSeg
@@ -103,7 +103,7 @@ python predict_NSYnet.py
 Regarding the reference data and the pre-trained models, we are not sharing it for the time being due to some cooperative unit agreements and future layouts. For reference data acquisition, you can use the steps described in Section 2.4 of our paper (Medical Image Analysis, 2023) to do so, which I think is an important step. 
 
 <div align=center>
-<img src="figures/rd.jpg" width="400px">
+<img src="figures/rd.jpg" width="700px">
 </div>
 
 
