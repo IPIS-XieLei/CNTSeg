@@ -96,7 +96,7 @@ python predict_CNTSeg_V2_without_AFM.py; predict_CNTSeg_V2_without_CDF.py; predi
 5. Other: Train and Validate other models
 ```
 python train_MMFNet.py
-python predict_NSYnet.py
+python predict_MMFNet.py
 ```
 # **reference data**
 
@@ -113,4 +113,3 @@ Regarding the reference data and the pre-trained models, we are not sharing it f
 Lei Xie, College of Information Engineering, Zhejiang University of Technology
 
 leix@zjut.edu.cn
-# CNTSeg
