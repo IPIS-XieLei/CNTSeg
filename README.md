@@ -13,7 +13,7 @@ Due to the slender structure of cranial nerves (CNs) and the complex anatomical 
 CNTSeg is the code for the following papers. Please cite the papers if you use it.
 
 - Xie L, Huang J, Yu J, et al. Cntseg: A multimodal deep-learning-based network for cranial nerves tract segmentation[J]. Medical Image Analysis, 2023, 86: 102766.
-- CNTSeg-v2: An Arbitrary-Modal Fusion Network for Cranial Nerves Tract Segmentation. Submitted to IEEE TMI.
+- CNTSeg-v2: An Arbitrary-Modal Fusion Network for Cranial Nerves Tract Segmentation. Submitted to Medical Image Analysis.
 
   
 
