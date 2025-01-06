@@ -67,10 +67,14 @@ python predict_CNTSeg_V1.py
 
 - For CNTSeg-v2
 
+<div align=center>
+<img src="figures/cntseg_v2_overall_1010.jpg" width="700px">
+</div>
+
 In this work, we propose a novel arbitrary-modal fusion network for CNs tract segmentation, called CNTSeg-v2, which trains one model to handle different combinations of available modalities. Instead of directly combining all the modalities, we select T1-weighted (T1w) images as the primary modality according to simplicity in data acquisition and contribution most to the results, which supervises the information selection of other auxiliary modalities (T2w images, FA images, Peaks images, and DEC images).
 
 <div align=center>
-<img src="figures/cntseg_v2_overall_1010.jpg" width="700px">
+<img src="figures/Frist_pic_dice_FINAL.jpg" width="700px">
 </div>
 
 1. Train the CNTSeg-v2
