@@ -1,6 +1,4 @@
-# README
-
-# **Volumetric Cranial Nerves Tract Segmentation**
+# Volumetric Cranial Nerves Tract Segmentation
 
 ---
 
@@ -10,12 +8,30 @@ Due to the slender structure of cranial nerves (CNs) and the complex anatomical 
 <img src="figures/cns5.jpg" width="400px">
 </div>
 
-CNTSeg is the code for the following papers. Please cite the papers if you use it.
+Volumetric Cranial Nerves Tract Segmentation is the code for the following papers. Please cite the papers if you use it.
 
 - Xie L, Huang J, Yu J, et al. Cntseg: A multimodal deep-learning-based network for cranial nerves tract segmentation[J]. Medical Image Analysis, 2023, 86: 102766.
 - An Arbitrary-Modal Fusion Network for Volumetric Cranial Nerves Tract Segmentation. Submitted to Journal.
 
-  
+# **A multimodal deep-learning-based network for cranial nerves tract segmentation -- CNTSeg **
+
+In this work, we propose a novel multimodal deep-learning-based multi-class network for automated cranial nerves tract segmentation without using tractography, ROI placement or clustering, called CNTSeg. Specifically, we introduced T1w images, fractional anisotropy (FA) images, and fiber orientation distribution function (fODF) peaks into the training data set, and design the back-end fusion module which uses the complementary information of the interphase feature fusion to improve the segmentation performance. 
+
+<div align=center>
+<img src="figures/v1.jpg" width="700px">
+</div>
+
+# **An Arbitrary-Modal Fusion Network for Volumetric Cranial Nerves Tract Segmentation -- CNTSeg-V2 **
+
+<div align=center>
+<img src="figures/Frist_pic_dice_FINAL.jpg" width="700px">
+</div>
+
+In this work, we propose a novel arbitrary-modal fusion network for CNs tract segmentation, called CNTSeg-v2, which trains one model to handle different combinations of available modalities. Instead of directly combining all the modalities, we select T1-weighted (T1w) images as the primary modality according to simplicity in data acquisition and contribution most to the results, which supervises the information selection of other auxiliary modalities (T2w images, FA images, Peaks images, and DEC images).
+
+<div align=center>
+<img src="figures/cntseg_v2_overall_1010.jpg" width="700px">
+</div>
 
 # **Install**
 
@@ -25,7 +41,6 @@ CNTSeg is the code for the following papers. Please cite the papers if you use i
 - python >= 3.6
 - numpy >= 1.20.1
 - SimpleITK >= 2.2.1
-
 
 # **How to use**
 
@@ -44,12 +59,6 @@ python createmydata.py
 ```
 - For CNTSeg
 
-In this work, we propose a novel multimodal deep-learning-based multi-class network for automated cranial nerves tract segmentation without using tractography, ROI placement or clustering, called CNTSeg. Specifically, we introduced T1w images, fractional anisotropy (FA) images, and fiber orientation distribution function (fODF) peaks into the training data set, and design the back-end fusion module which uses the complementary information of the interphase feature fusion to improve the segmentation performance. 
-
-<div align=center>
-<img src="figures/v1.jpg" width="700px">
-</div>
-
 1. Find the best weights for single modalities separately
 ```
 python train_Single.py (train_T1, train_FA, and train_Peaks)
@@ -66,16 +75,6 @@ python predict_CNTSeg_V1.py
 
 
 - For CNTSeg-v2
-
-<div align=center>
-<img src="figures/Frist_pic_dice_FINAL.jpg" width="700px">
-</div>
-
-In this work, we propose a novel arbitrary-modal fusion network for CNs tract segmentation, called CNTSeg-v2, which trains one model to handle different combinations of available modalities. Instead of directly combining all the modalities, we select T1-weighted (T1w) images as the primary modality according to simplicity in data acquisition and contribution most to the results, which supervises the information selection of other auxiliary modalities (T2w images, FA images, Peaks images, and DEC images).
-
-<div align=center>
-<img src="figures/cntseg_v2_overall_1010.jpg" width="700px">
-</div>
 
 1. Train the CNTSeg-v2
 ```
