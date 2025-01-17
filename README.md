@@ -109,6 +109,12 @@ Regarding the reference data and the pre-trained models, we are not sharing it f
 <img src="figures/rd.jpg" width="700px">
 </div>
 
+# **Note**
+
+Corrigendum to “Xie L, Huang J, Yu J, et al. Cntseg: A multimodal deep-learning-based network for cranial nerves tract segmentation[J]. Medical Image Analysis, 2023, 86: 102766.”
+
+In this paper, the average symmetric surface distance (ASSD) metrics results we show are all calculated by Average Hausdorff Distance (AHD), and the detailed calculation code is in metrics_final_paper.py. All subsequent metrics will be based on AHD calculations.
+
 
 # **Concact**
 
