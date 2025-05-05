@@ -26,7 +26,6 @@ image_rows = config_2d.VOLUME_ROWS
 image_cols = config_2d.VOLUME_COLS
 image_depth = config_2d.VOLUME_DEPS
 
-# test_extraction_step = config_2d.TEST_EXTRACTION_STEP
 # 是否使用cuda
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
